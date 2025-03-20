@@ -5,7 +5,7 @@ namespace CrudBuilder\Tests;
 use CrudBuilder\CrudBuilder;
 use CrudBuilder\Tests\TestClasses\Models\SingerModel;
 
-class QueryBuilderTest extends TestCase
+class CrudBuilderTest extends TestCase
 {
     /** @test */
     public function it_will_create_for_given_model()
